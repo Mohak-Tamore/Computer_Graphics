@@ -17,9 +17,10 @@ void main()
  do
  {
   putpixel(xc+x, yc-y, WHITE);
-  putpixel(xc-x, yc+y, WHITE);
-  putpixel(xc+x, yc+y, WHITE);
-  putpixel(xc-x, yc-y, WHITE);
+  putpixel(xc-x, yc+y, RED);
+  putpixel(xc+x, yc+y, BLUE);
+  putpixel(xc-x, yc-y, YELLOW);
+  delay(50);
   if(p<0)
   {
    x++;
@@ -36,9 +37,10 @@ void main()
  do
  {
   putpixel(xc+x, yc-y, WHITE);
-  putpixel(xc-x, yc+y, WHITE);
-  putpixel(xc+x, yc+y, WHITE);
-  putpixel(xc-x, yc-y, WHITE);
+  putpixel(xc-x, yc+y, RED);
+  putpixel(xc+x, yc+y, BLUE);
+  putpixel(xc-x, yc-y, YELLOW);
+  delay(50);
   if(p>0)
   {
    y--;
