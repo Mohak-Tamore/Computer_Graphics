@@ -7,7 +7,7 @@ void main()
  int ch,x,y,x1,x2,y1,y2,dx,dy,step,i,j,th;
  int gd = DETECT, gm = 0;
  detectgraph(&gd, &gm);
- initgraph(&gd,&gm, "C:\\TC\\BGI");
+ initgraph(&gd,&gm, "C:\\TURBOC3\\BGI");
  printf("Enter type of line: \n1.Thin line \n2.Dotted line \n3.Dash line \n4.Thick line ");
  scanf("%d", &ch);
  printf("Enter the 1st points: ");
@@ -85,3 +85,6 @@ int sign(int a)
  else
  return -1;
 }
+
+
+
