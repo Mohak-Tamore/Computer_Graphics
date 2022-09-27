@@ -16,13 +16,13 @@ void main()
  p = 1 - r;
  do
  {
-  putpixel(x+xc,y+yc,RED);
-  putpixel(-x+xc,y+yc,YELLOW);
+  putpixel(x+xc,y+yc,GREEN);
+  putpixel(-x+xc,y+yc,GREEN);
   putpixel(-y+yc,x+xc,WHITE);
-  putpixel(-y+yc,-x+xc,GREEN);
-  putpixel(-x+xc,-y+yc,BLUE);
-  putpixel(x+xc,-y+yc,RED);
-  putpixel(y+yc,-x+xc,BLUE);
+  putpixel(-y+yc,-x+xc,WHITE);
+  putpixel(-x+xc,-y+yc,6);
+  putpixel(x+xc,-y+yc,6);
+  putpixel(y+yc,-x+xc,WHITE);
   putpixel(y+yc,x+xc,WHITE);
   delay(100);
   if(p<0)
