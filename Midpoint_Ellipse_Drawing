@@ -16,10 +16,10 @@ void main()
  p = (ry*ry)-(rx*rx*ry)+((rx*rx)/4);
  do
  {
-  putpixel(xc+x, yc-y, WHITE);
-  putpixel(xc-x, yc+y, RED);
-  putpixel(xc+x, yc+y, BLUE);
-  putpixel(xc-x, yc-y, YELLOW);
+  putpixel(xc+x, yc-y, 6);
+  putpixel(xc-x, yc+y, GREEN);
+  putpixel(xc+x, yc+y, GREEN);
+  putpixel(xc-x, yc-y, 6);
   delay(50);
   if(p<0)
   {
@@ -37,9 +37,9 @@ void main()
  do
  {
   putpixel(xc+x, yc-y, WHITE);
-  putpixel(xc-x, yc+y, RED);
-  putpixel(xc+x, yc+y, BLUE);
-  putpixel(xc-x, yc-y, YELLOW);
+  putpixel(xc-x, yc+y, WHITE);
+  putpixel(xc+x, yc+y, WHITE);
+  putpixel(xc-x, yc-y, WHITE);
   delay(50);
   if(p>0)
   {
